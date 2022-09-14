@@ -3,8 +3,7 @@
     <el-col
       :span="8"
       v-for="url in urls"
-      :key="o"
-      :offset="url > 0 ? 4 : 0"
+ 
     >
       <el-card :body-style="{ padding: '0px' }">
         <el-image

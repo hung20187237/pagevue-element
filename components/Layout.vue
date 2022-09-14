@@ -61,7 +61,9 @@
           </el-menu-item-group>
           <el-submenu index="2-4">
             <template slot="title">Option 4</template>
-            <el-menu-item index="2-4-1">Option 4-1</el-menu-item>
+            <el-menu-item index="2-4-1">
+              <NuxtLink to="/timeline" style="text-decoration: none">Option 4-1</NuxtLink>
+            </el-menu-item>
           </el-submenu>
         </el-submenu>
         <el-submenu index="3">
